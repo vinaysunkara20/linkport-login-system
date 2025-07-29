@@ -1,0 +1,46 @@
+.vinay{
+    margin: auto;
+    width: 300px;
+
+    position: relative;
+    padding: 5px;
+
+    top: 100px;
+    bottom: 50px;
+}
+body{
+    background-image: url(design.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.icons{
+    margin: auto;
+    width: 300px;
+    text-align: center;
+}
+.teja{
+    margin: auto;
+    width: 300px;
+
+    position: relative;
+    padding: 5px;
+
+    top: 140px;
+    bottom: 50px;
+}
+.login{
+    margin: auto;
+    width: 300px;
+
+    position: relative;
+    padding: 5px;
+
+    top: 100px;
+    bottom: 50px;
+
+    gap: 20px;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login page</title>
+        <link rel="stylesheet" href="stylesheets.css">
+       <script src="https://kit.fontawesome.com/d046451590.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+
+        
+        
+        <div class="vinay" id="vinay">
+            <div class="icons" id="icons">
+                <i class="fa-solid fa-circle-user fa-7x" style="color: darkgray;"></i>
+            </div>
+           <form id="loginform">
+            <h2 style="background-color: color(srgb rgba(180, 174, 174, 0.795) green blue);">Login</h2>
+            <div>
+                <label for="username">UserName:</label>
+                <input type="text" id="username" placeholder="username" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="password" required>
+            </div>
+            <br>
+            <div>
+                <button type="submit" id="text" style="background-color: lightgrey;">Login</button>
+                
+                <button type="reset" id="text" style="background-color: lightgrey;">Reset</button>
+            </div>
+            <div>
+                <p><a href="forgotpassword.html">Forgot Password</a></p>
+            </div>
+            
+
+
+            <p id="errorMessage"></p>
+           </form>
+
+        </div>
+        <script src="index.js"></script>
+
+         <script src="credentials.js"></script>
+
+
+    </body>
+</html>
